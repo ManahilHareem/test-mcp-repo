@@ -1,0 +1,23 @@
+node_modules/
+.next/
+dist/
+coverage/
+frontend/node_modules/
+frontend/.next/
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/alembic/__pycache__/
+*.pyc
+.env
+.env.local
+.env.*.local
+.DS_Store
+true-north_old/
+Dashboard.jpeg
+login_screen.jpeg
+onboarding_screen.jpeg
+query_screen.png
+TrueNorth — Foundational Sprint Plan (Revised).md
+final_plan.md

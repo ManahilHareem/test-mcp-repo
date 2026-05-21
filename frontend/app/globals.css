@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, #0d1931 0, #0d1931 108px, #f5efe2 108px, #f5efe2 100%);
+  color: #0d1931;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.chat-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #c79f45 #efe4cc;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+  background: #efe4cc;
+  border-radius: 999px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d6b15b 0%, #b8862a 100%);
+  border-radius: 999px;
+  border: 2px solid #efe4cc;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #deb96a 0%, #a6741d 100%);
+}
